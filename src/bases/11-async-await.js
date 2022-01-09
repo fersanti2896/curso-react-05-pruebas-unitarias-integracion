@@ -9,13 +9,12 @@ const getImagen = async() => {
         const { data } = await resp.json();
         const { url } = data.images.original;
 
-        const img = document.createElement('img');
-        img.src = url;
-
-        document.body.append(img);
+        return url;
     } catch (error) {
-        console.log(error);
+        return 'No existe';
     }
 }
 
-getImagen();
+export {
+    getImagen
+}
