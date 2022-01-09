@@ -6,7 +6,7 @@ exports[`Pruebas al componente CounterApp Debe mostrar a <CounterApp /> correcta
     CounterApp
   </h1>
   <h2>
-    100
+    16
   </h2>
   <button
     onClick={[Function]}
